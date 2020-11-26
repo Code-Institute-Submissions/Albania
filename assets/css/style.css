@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+     background: #8d0801;
+}
+
+.image img{
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}                               <!--navbar-->
+.navbar-brand {
+    color:#708d81;
+}
+.main-tagline text-center{
+    color: #708d81;
+}         
