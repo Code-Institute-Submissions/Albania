@@ -23,10 +23,18 @@ body {
   padding: 0.5rem;
   text-align: center;
   background-color: #f4d58d;
-  border: solid 1px #001427;
+  border: solid 0.1rem #001427;
 }
 
 #panel {
   padding: 5rem;
   display: none;
+}
+li a {
+    color: #708d81;
+    text-align: center;
+
+}
+li a:hover{
+    color: black;
 }
