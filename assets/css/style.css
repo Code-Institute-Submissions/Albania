@@ -18,3 +18,15 @@ body {
 .main-tagline text-center{
     color: #708d81;
 }         
+
+#panel, #flip {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #f4d58d;
+  border: solid 1px #001427;
+}
+
+#panel {
+  padding: 5rem;
+  display: none;
+}
