@@ -37,6 +37,10 @@ body {
     margin: .5rem auto;
     text-align: center;
 }
+.home-page {
+    font-size: 2rem;
+    color: #001427;
+}
 .container {
   position: relative;
 } 
@@ -62,7 +66,7 @@ li a {
 
 }
 li a:hover{
-    color: black;
+    color: #001427;
 }
 .flip-card {
   background-color: transparent;
@@ -95,12 +99,12 @@ li a:hover{
 
 .flip-card-front {
   background-color: #bbb;
-  color: black;
+  color: #001427;
 }
 
 .flip-card-back {
   background-color: #bf0603;
-  color:black;
+  color:#001427;
   transform: rotateY(180deg);
 }
 .footer {
