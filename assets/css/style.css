@@ -13,10 +13,10 @@ body {
     height: auto;
 }                               <!--navbar-->
 .navbar-brand {
-    color:#708d81;
+    color:#708d81 !important;
 }
 .main-tagline text-center{
-    color: #708d81;
+    color: #708d81 !important;
 }        
 .container {
   position: relative;
@@ -33,8 +33,12 @@ body {
   padding: 5rem;
   display: none;
 }                           <!--links-->
+ul li  {
+    font-size: 2rem;
+    color: #708d81 !important;
+}
 li a {
-    color: #708d81;
+    color: #708d81 !important;
     text-align: center;
 
 }
@@ -45,7 +49,7 @@ li a:hover{
   background-color: transparent;
   width: 30rem;
   height: 30rem;
-  perspective: 100rem;
+  perspective: 50rem;
 }
 
 .flip-card-inner {
@@ -79,4 +83,12 @@ li a:hover{
   background-color: #bf0603;
   color:black;
   transform: rotateY(180deg);
+}
+.footer {
+    font-size: 1.5rem;
+    color: #708d81 !important;
+}
+.social-link {
+    font-size: 2rem;
+    color: #708d81 !important;
 }
