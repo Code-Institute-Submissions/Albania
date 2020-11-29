@@ -15,6 +15,17 @@ body {
 .navbar-brand {
     color:#708d81 !important;
 }
+.navbar-nav .nav-link {
+    font-size: 2rem;
+    color: #708d81 !important;
+}
+.navbar-light .navbar-toggler {
+    color: #708d81;
+    border-color: #708d81;
+}
+.navbar-nav .nav-link:hover {
+   color: #f4d58d!important;
+}
 .main-tagline text-center{
     color: #708d81 !important;
 }        
