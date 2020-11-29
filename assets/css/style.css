@@ -13,6 +13,7 @@ body {
     height: auto;
 }                               <!--navbar-->
 .navbar-brand {
+    font-size: 2rem;
     color:#708d81 !important;
 }
 .navbar-nav .nav-link {
@@ -29,6 +30,12 @@ body {
 .main-tagline text-center{
     color: #708d81 !important;
 }        
+.main-tagline em{
+    font-size: 4rem;
+    font-weight: 200;
+    color: #708d81;
+    margin: .5rem auto;
+    text-align: center;
 .container {
   position: relative;
 } 
