@@ -111,6 +111,11 @@ li a:hover{
     font-size: 1.5rem;
     color: #708d81 !important;
 }
+.bordered {
+    border: solid 1px #f4d58d;
+    border-radius: 1rem;
+}
+
 .social-link {
     font-size: 1.5rem;
     color: #708d81 !important;
