@@ -36,6 +36,7 @@ body {
     color: #708d81;
     margin: .5rem auto;
     text-align: center;
+}
 .container {
   position: relative;
 } 
@@ -107,6 +108,10 @@ li a:hover{
     color: #708d81 !important;
 }
 .social-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #708d81 !important;
+}
+.fa {
+    font-size:2rem;
+    color: #708d81;
 }
