@@ -1,3 +1,5 @@
+var cities = ["Tirana","Vlore","Sarande","Fier","Pogradec","Durres","Kruje","Gjirokaster","Berat","Theth","Korca","Himara",]
+
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments, the text field element and an array of possible autocompleted values:*/
   var currentFocus;                    /*execute a function when someone writes in the text field:*/
