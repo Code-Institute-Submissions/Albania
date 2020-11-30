@@ -3,50 +3,7 @@
 
 body {
      background: #8d0801;
-     font: 1.6rem Arial;
 }
-.autocomplete {                    /*the container must be positioned relative:*/
-  position: relative;
-  display: inline-block;
-}
-input {
-  border: 0.1 solid transparent;
-  background-color: #f1f1f1;
-  padding: 1rem;
-  font-size: 1.6rem;
-}
-input[type=text] {
-  background-color: #f1f1f1;
-  width: 100%;
-}
-input[type=submit] {
-  background-color:#f4d58d ;
-  color: #fff;
-}
-.autocomplete-items {
-  position: absolute;
-  border: 0.1 solid #001427;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;                       /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0;
-}
-.autocomplete-items div {
-  padding: 1rem;
-  cursor: pointer;
-  background-color: #fff;
-  border-bottom: 0.1rem solid #001427;
-}
-.autocomplete-items div:hover {                  /*when hovering an item:*/
-  background-color: #e9e9e9;
-}
-.autocomplete-active {                  /*when navigating through the items using the arrow keys:*/
-  background-color: #f4d58d !important;
-  color: #ffffff;
-}
-
 .image img{
     margin: 1rem auto;
     display: block;
@@ -152,4 +109,89 @@ li a:hover{
 .fa {
     font-size:2rem;
     color: #708d81;
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 345px;
 }
