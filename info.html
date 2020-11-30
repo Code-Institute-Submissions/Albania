@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmTOT8c14psTMQ1rf5B4-h4PuTXwva8n8&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
 </head>
 <body>                                 <!--Navbar Section Imported from Bootstrap-->
 <div class="container">
@@ -55,9 +60,30 @@
 <div class="col-12 image">
 <img src="assets/css/images/Albania-flag.png" alt="Fier"/>
  </div>
- <div class="map">
  </div>
 </div>
-</div>
+ <div class="map">
+ </div>
+<script>
+function initMap(): void {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(
+    document.getElementById("map") as HTMLElement,
+    {
+      zoom: 4,
+      center: uluru,
+    }
+  );
+
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+
+</script>
 </body>                   
 </html>
