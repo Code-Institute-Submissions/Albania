@@ -52,7 +52,7 @@ li a {
 
 }
 li a:hover{
-    color: #001427;
+    color: #f4d58d;
 }                                     <!--flip-card-->
 .flip-card {
   background-color: transparent;
@@ -98,12 +98,12 @@ li a:hover{
     color: #708d81 !important;
 }
 .bordered {
-    border: solid 1px #f4d58d;
+    border: solid 0.1rem #f4d58d;
     border-radius: 1rem;
 }                        <!--social-link-->
 
 .social-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #708d81 !important;
 }
 .fa {
@@ -212,7 +212,7 @@ li a:hover{
 #mySearch {
     background-color: #f4d58d!important;
   width: 100%;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1.1rem;
   border: 0.1rem solid #f4d58d;
 }
@@ -226,6 +226,7 @@ li a:hover{
 }
 
 #myMenu li a {
+    font-size: 4rem;
   padding: 1.2rem;
   text-decoration: none;
   color: #001427 !important;
