@@ -11,7 +11,7 @@ body {
     height: auto;
 }                  /*------------navbar---------*/
 .navbar-brand {
-    font-size: 3rem;
+    font-size: 2rem;
     color:#708d81 !important;
 }
 .navbar-nav .nav-link {
