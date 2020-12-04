@@ -11,7 +11,7 @@ body {
     height: auto;
 }                  <!--navbar-->
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 3rem;
     color:#708d81 !important;
 }
 .navbar-nav .nav-link {
@@ -226,7 +226,7 @@ li a:hover{
 }
 
 #myMenu li a {
-    font-size: 4rem;
+    font-size: 2rem;
   padding: 1.2rem;
   text-decoration: none;
   color: #001427 !important;
