@@ -10,6 +10,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
 </head>
 <body>                                 <!--Navbar Section Imported from Bootstrap-->
 <div class="container">
@@ -58,10 +75,10 @@
  </div>
 </div>
 <div class="row">
-<div class="col-12 col-lg-4">
-  <div class="left" style="background-color:#bf0603;">
+<div class="col-12 col-lg-2">
+  <div class="left" style="background-color:#8d0801;">
     <h2>Cultural Places</h2>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a city">
     <ul id="myMenu">
       <li><a href="https://www.butrint.al/">Butrint</a></li>
       <li><a href="https://www.lonelyplanet.com/albania/central-albania/berat">Berat</a></li>
@@ -74,8 +91,8 @@
     </ul>
   </div>
 </div>
-<div class="col-12 col-lg-8">
-<div class="right" style="background-color:#bf0603;">
+<div class="col-12 col-lg-10">
+<div class="right" style="background-color:#8d0801;">
     <h2>Welcome To Albania</h2>
     <p>Top Historic Sites in Albania to visit and among the very best are Butrint, Berat, Apollonia, Gjirokaster.
 We’ve put together an experts guide to Albanian Cultural Places, Landmarks and Monuments, with our top ten places to visit as well as a full list of Historic Sites in Albania, which shouldn’t be ignored if you have the time.</p>
