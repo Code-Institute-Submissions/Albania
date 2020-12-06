@@ -31,7 +31,7 @@ If you love travelling this is the country that would be worth to visit.
 
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-[Javascript] (https://en.wikipedia.org/wiki/JavaScript)
+[Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Tools & Libraries
 
