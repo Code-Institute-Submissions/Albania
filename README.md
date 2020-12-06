@@ -32,3 +32,13 @@ If you love travelling this is the country that would be worth to visit.
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 [Javascript] (https://en.wikipedia.org/wiki/JavaScript)
+
+## Tools & Libraries
+
+* [Git](https://git-scm.com/)
+* [Bootstrap](https://maps.google.com/)
+* [Jquery](https://jquery.com/)
+* [Font-Awesome](https://fontawesome.com/)
+* [TinyPng](https://tinypng.com/) __(image compression)__
+* [Am-I-Responsive] (http://ami.responsivedesign.is/)
+* [W3-Official-Validator] (https://validator.w3.org/)
