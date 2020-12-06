@@ -25,3 +25,10 @@ If you love travelling this is the country that would be worth to visit.
 * Planning + Testing: ✏️ 🔌
 * Bugs 🐞
 * Deployment 🚀
+## Languages:
+
+[HTML](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+
+[Javascript] (https://en.wikipedia.org/wiki/JavaScript)
