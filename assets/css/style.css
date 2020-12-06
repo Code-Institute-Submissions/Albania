@@ -7,7 +7,7 @@ body {
 .image img{
     margin: 1rem auto;
     display: block;
-    width:30rem;
+    width:100%;
     height: auto;
 }                  /*------------navbar---------*/
 .navbar-brand {
@@ -222,7 +222,7 @@ li a:hover{
 }
 
 #myMenu li a {
-    font-size: 2rem;
+    font-size: 1rem;
   padding: 1.2rem;
   text-decoration: none;
   color: #001427 !important;
@@ -230,27 +230,27 @@ li a:hover{
 }
 
 #myMenu li a:hover {
-  background-color: #f4d58d!important;
+  background-color: #f4d58d !important;
 }                           /*-----------gmail---------*/
 .field {
   margin-bottom: 1rem;
 }
 
 .field label {
-  display: block;
+  display: center;
   font-size: 2rem;
   color: #f4d58d;
 }
 
 .field input {
-  display: block;
+  display: center;
   min-width: 25rem;
   line-height: auto;
   font-size: 1.4rem;
 }
 
 input[type="submit"] {
-  display: block;
+  display: center;
   padding: 1rem 3rem;
   font-size: 1.4rem;
   background-color:#708d81;
