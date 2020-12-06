@@ -42,3 +42,32 @@ If you love travelling this is the country that would be worth to visit.
 * [TinyPng](https://tinypng.com/) __(image compression)__
 * [Am-I-Responsive] (http://ami.responsivedesign.is/)
 * [W3-Official-Validator] (https://validator.w3.org/)
+  
+  # Deployment:   
+
+Albania was developed on GitPod, using  GitHub to host the repository.
+
+When deploying Albania the following steps were made:
+
+ * Opened up GitHub in the browser.
+ * Signed in using username and password.
+ * Selected my repositories.
+ *  Navigated to 'https://xhulja14.github.io/Albania/'.
+ * In the top navigation clicked 'settings'.
+ * Scrolled down to the GitHub Pages area.
+ * Selected 'Master Branch' from the 'Source' dropdown menu.
+ * Clicked to confirm my selection.
+ * Albania is now live on GitHub Pages.
+
+
+
+
+
+
+
+
+
+
+<!--Strong-->
+
+ __Enjoy coding!__
