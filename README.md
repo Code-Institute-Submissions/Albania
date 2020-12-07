@@ -1,45 +1,73 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome xhulja14,
+If you love travelling this is the country that would be worth to visit.
+## Albania
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Contents:
+* UX 👍
+* Project Goals
+* Target Audience Goals
+* Site Owner Goals
+* User Stories
+* User Requirements and Expectations
+* Design Choices 
+* Icons
+* Colours
+* Styling
+* Images
+* Backgrounds
+* Planning✏️
+* Wireframes 🔧
+* Website Layout
+# Features 🎡
+* Features that have been developed
+* Technologies Used 👨‍💻
+* Planning + Testing: ✏️ 🔌
+* Bugs 🐞
+* Deployment 🚀
+## Languages:
 
-## Gitpod Reminders
+[HTML](https://en.wikipedia.org/wiki/HTML5)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-`python3 -m http.server`
+[Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-A blue button should appear to click: *Make Public*,
+## Tools & Libraries
 
-Another blue button should appear to click: *Open Browser*.
+* [Git](https://git-scm.com/)
+* [Bootstrap](https://maps.google.com/)
+* [Jquery](https://jquery.com/)
+* [Font-Awesome](https://fontawesome.com/)
+* [TinyPng](https://tinypng.com/) __(image compression)__
+* [Am-I-Responsive] (http://ami.responsivedesign.is/)
+* [W3-Official-Validator] (https://validator.w3.org/)
+  
+  # Deployment:   
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Albania was developed on GitPod, using  GitHub to host the repository.
 
-A blue button should appear to click: *Make Public*,
+When deploying Albania the following steps were made:
 
-Another blue button should appear to click: *Open Browser*.
+ * Opened up GitHub in the browser.
+ * Signed in using username and password.
+ * Selected my repositories.
+ *  Navigated to 'https://xhulja14.github.io/Albania/'.
+ * In the top navigation clicked 'settings'.
+ * Scrolled down to the GitHub Pages area.
+ * Selected 'Master Branch' from the 'Source' dropdown menu.
+ * Clicked to confirm my selection.
+ * Albania is now live on GitHub Pages.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<!--Strong-->
 
---------
-
-Happy coding!
+ __Enjoy coding!__
