@@ -63,3 +63,4 @@ function initAutocomplete() {                                 /*------autocomple
     map.fitBounds(bounds);
   });
 }
+
