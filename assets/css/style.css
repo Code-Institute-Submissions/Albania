@@ -4,6 +4,9 @@
 body {
      background: #8d0801;
 }
+.round{
+    border-radius: 50%;
+}
 .image img{
     margin: 1rem auto;
     display: block;
