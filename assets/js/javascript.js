@@ -18,8 +18,6 @@ document.getElementById('form')
       alert(JSON.stringify(err));
     });
 });                                      /*----animation----*/
-var looper;
-var degrees = 0;
 function rotateAnimation(el,speed){
 	var elem = document.getElementById(el);
 	if(navigator.userAgent.match("Chrome")){
@@ -39,4 +37,19 @@ function rotateAnimation(el,speed){
 		degrees = 1;
 	}
 	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}                                                  /*---------search-menu---------*/
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
 }
