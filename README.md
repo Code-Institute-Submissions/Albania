@@ -1,4 +1,4 @@
-<img src="assets/css/images/Am-I-responsive.png" style="margin: 0;">
+<img src="https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/Am-I-responsive.png" style="margin: 0;">
 
 If you love travelling this is the country that would be worth to visit.
 ## Albania
