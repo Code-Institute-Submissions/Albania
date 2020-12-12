@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/css/images/Am-I-responsive.png" style="margin: 0;">
 
 If you love travelling this is the country that would be worth to visit.
 ## Albania
