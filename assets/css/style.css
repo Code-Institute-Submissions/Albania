@@ -4,10 +4,16 @@
 body {
      background: #8d0801;
 }
-#img1 {
+#img1{
     border-radius: 50%;
-    width: 50%;
+    width: 100%;
     height: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .image img{
     margin: 1rem auto;
@@ -45,7 +51,16 @@ p {
 }
 .container {
   position: relative;
+}
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }                                        /*-------links--------*/
+.md-form label {
+    font-size: 2rem;}
+    
 ul li  {
     font-size: 2rem;
     color: #708d81 !important;
