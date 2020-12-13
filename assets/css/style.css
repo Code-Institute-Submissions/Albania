@@ -182,6 +182,9 @@ img.hover-shadow {
 p {
     font-size: 1rem;
 }
+h2 {
+    font-size: 2rem;
+}
 .container {
   position: relative;
 }
@@ -349,10 +352,12 @@ li a:hover{
     display: block;
 }
 .field {
+    padding-left: 1rem;
   margin-bottom: 1rem;
 }
 
 .field label {
+    padding-left: 1rem;
   display: block;
   font-size: 2rem;
   color: #f4d58d;
@@ -361,12 +366,13 @@ li a:hover{
 .field input {
   display: block;
   min-width: 25rem;
-  line-height: auto;
   font-size: 1.4rem;
+  padding-left: 1rem;
 }
 
 input[type="submit"] {
   display: block;
+  padding-left: 1rem;
   padding: 1rem 3rem;
   font-size: 1.4rem;
   background-color:#708d81;
