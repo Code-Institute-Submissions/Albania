@@ -1,7 +1,6 @@
 const btn = document.getElementById('button');    /*----------contact-form------*/
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
+document.getElementById('form').addEventListener('submit', function(event) {
    event.preventDefault();
 
    btn.value = 'Sending...';
