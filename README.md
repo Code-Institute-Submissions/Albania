@@ -167,7 +167,7 @@ Implementation : I implemented 'Email.js' which i finded very good and working v
 Result : This feature work as expected after testing.
 Verdict : This test passed based on the expected behaviour.
 
-Responsive navabar (mobile/tablet):
+* Responsive navabar (mobile/tablet):
 
 Plan : Is always important that the navigation meny to work in all devices.
 Implementation : Using very simple jQuery, i imported the navbar from Bootstrap and is very effective.
@@ -197,8 +197,8 @@ Verdict : This test passed based on the level of interaction a user can have wit
 Known Bugs:
 Here is a list of known bugs that exist on the site: ❌
 
-A bug exists in video.html file but im aware of the error as i copied from youtube is not my code.
-Another error comes up in every page , is Content.js but i dont have any file from my code under content.js.
+  * A bug exists in video.html file but im aware of the error as i copied from youtube is not my code.
+  * Another error comes up in every page , is Content.js but i dont have any file from my code under content.js.
 
  ## Deployment:   
 
