@@ -16,15 +16,15 @@ If you love travelling this is the country that would be worth to visit.
 * Styling
 * Images
 * Backgrounds
-* Planning✏️
-* Wireframes 🔧
+* Planning
+* Wireframes 
 * Website Layout
-# Features 🎡
+# Features 
 * Features that have been developed
-* Technologies Used 👨‍💻
-* Planning + Testing: ✏️ 🔌
-* Bugs 🐞
-* Deployment 🚀
+* Technologies Used 
+* Planning + Testing: 
+* Bugs 
+* Deployment 
   
 # UX (User Experience) 
 ## Project Goals:
@@ -122,7 +122,7 @@ I built the wireframes for this project using Balsamiq Wireframes. This time i d
 * [Am-I-Responsive](http://ami.responsivedesign.is/)
 * [W3-Official-Validator](https://validator.w3.org/)
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/overview)
- 
+ * [Email.js](https://www.emailjs.com/)
  # Testing: 
 
  This was my first time using the Google Maps API, and Email.js so i was worried if i can make them work correctly, so i was all time testing myslef during work and when the project was finished, i was happy to see they work as i was expecting.
