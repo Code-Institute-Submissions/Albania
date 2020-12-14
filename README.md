@@ -106,11 +106,11 @@ I built the wireframes for this project using Balsamiq Wireframes. This time i d
 
 ## Languages:
 
-[HTML](https://en.wikipedia.org/wiki/HTML5)
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
 
-[CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-[JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
+* [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Tools & Libraries
 
@@ -122,8 +122,85 @@ I built the wireframes for this project using Balsamiq Wireframes. This time i d
 * [Am-I-Responsive](http://ami.responsivedesign.is/)
 * [W3-Official-Validator](https://validator.w3.org/)
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/overview)
-  
-  # Deployment:   
+ 
+ # Testing: 
+
+ This was my first time using the Google Maps API, and Email.js so i was worried if i can make them work correctly, so i was all time testing myslef during work and when the project was finished, i was happy to see they work as i was expecting.
+
+* Test Planning:
+ With this project i had a clear idea how i will work and i will test my work , so far im happy with the implemented elements i choose as they work as i was planing.
+
+* Testing Stories:
+I had suggestion to not use flip cards as they was not working on mobile devices so i implemented lightbox with my images, and happy now with this choice as they are working perfect and passing the testing.
+
+I ran into an issue with an annimation that i tryed, it was causing me lots of errors , so i deleted and code runs without issues.
+
+Around half way through this project i decided to split the JavaScript code into different files as i finded difficult to run my code without issues.
+
+* Overall:
+  * Responsiveness -
+
+Plan: I knew that i needed to make a responsive and mobile friendly website so i used Bootstrap because i find it easy and always responsive.
+Implementation: Working on Html and using bootsrap classes makes it much easier and faster .
+Result : The Responsiveness of the site works as expected.
+Verdict : The site is responsive.
+
+* Design -
+
+Plan :For this project i choosed bright colours because i think they are more attractive , i included imagery as well. I picked a pallete by Coolors website.
+Implementation : Is very fast and easy to implement ready pallete of colours as they save you to much time.
+Result : The colours chosen are perfect for this site.
+Verdict : This test has passed.
+
+* Features:
+Search-menu :
+
+Plan: During planning i was thinking to implement a search menu which is interactive, in my case to link the users to different holiday locations.
+Implementation : I created a column layout with Flexbox, ans is responsive as expected
+Result :  This is also fully responsive.
+Verdict : This test passed ,and working correctly.
+
+* Form Validation :
+
+Plan: During planning for this project i knew that i needed to include valid contact form. 
+Implementation : I implemented 'Email.js' which i finded very good and working very well. Is easy to use it.
+Result : This feature work as expected after testing.
+Verdict : This test passed based on the expected behaviour.
+
+Responsive navabar (mobile/tablet):
+
+Plan : Is always important that the navigation meny to work in all devices.
+Implementation : Using very simple jQuery, i imported the navbar from Bootstrap and is very effective.
+Result : The burger-button nav works on a mobile/tablet device.
+Verdict : This test passed based on the expected behaviour.
+
+* Interactive Google Maps:
+
+Plan : For this site is very important of using Google Maps. For me was first time working with Google maps API and i thought is going to be hard to make it work.
+Implementation : I spend a lot of time testing this feature and i implemented interactive google maps from Google-developers, was easy to use it.
+Result : A user can interact with the map and the information served, difference information is served based on the users interaction.
+Verdict : This test passed based on the level of interaction a user can have with the Google map.
+
+* Markup-validation-service:
+  Testing steps : First think i wanted to make sure after i finished my website was to check that my website was effective.
+   Implementation : I started by checking my website in the W3C Validation Service. I copy and pasted one by one the code of evey page that i have in my website and checked through W3C Validation Service.
+    First step : opened Gitpod, clicked index.html and then i copied the code and went to W3C official and clicked over direct input validator.
+   Result : my code passed without mistakes.
+   * [Index.html-page](https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/index.html.png)
+   * [Explore.html-page](https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/explore.html.png)
+   * [Info.html-page](https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/info.html.png)
+   * [Video.html-page](https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/Video.html.png)
+   * [Contact.html-page](https://browser-b6666863-a830-4594-b974-bd551ea1d1a0.ws-eu03.gitpod.io/workspace/Albania/assets/css/images/contact.html.png)
+# Bugs: 
+* Bugs During Development:
+
+Known Bugs:
+Here is a list of known bugs that exist on the site: ❌
+
+A bug exists in video.html file but im aware of the error as i copied from youtube is not my code.
+Another error comes up in every page , is Content.js but i dont have any file from my code under content.js.
+
+ ## Deployment:   
 
 Albania was developed on GitPod, using  GitHub to host the repository.
 
@@ -138,15 +215,6 @@ When deploying Albania the following steps were made:
  * Selected 'Master Branch' from the 'Source' dropdown menu.
  * Clicked to confirm my selection.
  * Albania is now live on GitHub Pages.
-
-
-
-
-
-
-
-
-
 
 <!--Strong-->
 
