@@ -95,17 +95,22 @@ I like bright and vibrant colours because they have a higher influence, more pot
 The images I chose to use are actually pictures of cities in Albania they show different holiday destinations.
  I think using this pictures make the site more attractive and having more chances the users choose Albania their next holiday destination.
 
- Wireframes: 
-I built the wireframes for this project using Balsamiq Wireframes. This time i decided to use picture on my wireframes so i could see how my site will look in different devices. You can see my wireframes  [Balsamiq Wireframes]()
+## Wireframes:
+I built the wireframes for this project using Balsamiq Wireframes. This time i decided to use picture on my wireframes so i could see how my site will look in different devices. You can see my wireframes here [Balsamiq Wireframes](https://balsamiq.cloud/sfg2x1c/pjpbifn)
 
-View my wireframes here
+## Features: 
+* Lightbox
+* Interactive Google Maps
+* Email.Js
+# Technologies Used:
+
 ## Languages:
 
 [HTML](https://en.wikipedia.org/wiki/HTML5)
 
 [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
-[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+[JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Tools & Libraries
 
@@ -114,8 +119,9 @@ View my wireframes here
 * [Jquery](https://jquery.com/)
 * [Font-Awesome](https://fontawesome.com/)
 * [TinyPng](https://tinypng.com/) __(image compression)__
-* [Am-I-Responsive] (http://ami.responsivedesign.is/)
-* [W3-Official-Validator] (https://validator.w3.org/)
+* [Am-I-Responsive](http://ami.responsivedesign.is/)
+* [W3-Official-Validator](https://validator.w3.org/)
+* [Google Maps](https://developers.google.com/maps/documentation/javascript/overview)
   
   # Deployment:   
 
